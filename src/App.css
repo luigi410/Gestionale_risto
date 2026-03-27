@@ -1,0 +1,74 @@
+@font-face {
+  font-family: 'miofont';
+  src: url('./assets/font/Bauer Bodoni Medium.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'fontMarat';
+  src: url('./assets/font/Marat-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+.font-marat{
+  font-family: "fontMarat" !important;
+}
+
+.font-bauer{
+  font-family: "miofont", sans-serif !important;
+}
+
+
+.App {
+  text-align: center;
+}
+
+.bordo-nero{
+  border: 1px solid black !important;
+}
+.App-header {
+  /* background-color: rgba(198, 195, 144, 0.442); */
+  min-height: 120vh;
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  font-size: calc(10px + 2vmin);
+  color: rgb(168, 152, 93);
+}
+.logo{
+  text-align: center;
+  margin-top: 2rem
+}
+.titoli-menu{
+  font-size: 18px;
+  font-weight: 900;
+  letter-spacing: 4px;
+
+}
+.font{
+  font-size: 17px;
+}
+.color{
+  color: rgb(168, 152, 93) !important;
+}
+.font-bottoni{
+  font-size: 20px !important;
+}
+.prodotto {
+  font-size: 20px;
+}
+.prezzo {
+  font-size: 24px !important;
+}
+.btn-primary{
+  background-color:  rgba(198, 195, 144, 0.442)!important;
+
+}
+
+.active-btn {
+  border-bottom: 3px solid rgb(168, 152, 93) !important;
+  /* Aggiungi una linea sottostante */
+}
